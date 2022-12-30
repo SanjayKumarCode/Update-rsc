@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Pop3 from './Components/Pages/Pop3';
+import Last from './Components/Pages/Last';
+// import Second from './Components/Pages/Second';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Last/>
+      {/* <Second/> */}
+      {/* <Pop3/> */}
     </div>
   );
 }

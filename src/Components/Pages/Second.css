@@ -1,0 +1,139 @@
+.Container-sn {
+    background-color: black;
+    position: fixed;
+}
+
+.disp-sn{
+    font-family: Sans-serif;
+    color: #a4be99;
+    font-weight: 600;
+ text-align: center;
+    justify-content: center;
+    padding-left: 1100px;
+    /* position: fixed; */
+
+
+    /* font-family: Sans-serif;
+    font-weight: 600;
+   color: aliceblue; */
+}
+/* .pkk-sn {
+    color: aliceblue;
+
+} */
+
+.nis-sn{
+    color: aliceblue; 
+}
+
+.okk-sn:hover{
+    background-color: hwb(338 59% 35% / 0.747);
+    
+}
+
+.opp-sn:hover{
+    background-color: hwb(338 59% 35% / 0.747);
+    
+}
+
+.sec-sn:hover{
+    background-color: hwb(338 59% 35% / 0.747);
+    
+}
+.ytr-sn{
+    color: antiquewhite;
+}
+.ytm-sn{
+    color: rgb(7, 12, 9);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.disp-sn:hover {
+    color: rgb(171, 209, 35);
+}
+.second-sn{
+    margin-left: -1050px;
+    margin-top: 40px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  
+}
+.pkk-sn{
+    background-color: green;
+       width: 220px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    padding-top: 3px;
+    
+   
+}
+.sec-sn{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+   color: black;
+  
+   
+}
+.third-sn{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+    gap: 40px;
+
+    
+}
+.okk-sn{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.four-sn{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.opp-sn{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+.five-sn{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: -1350px;
+    padding-left: 30px;
+    color: aliceblue;
+    
+}
+/* .six{
+    height: 300px;
+    width: 1400px;
+    border: 0.2px solid gray;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.thead-primary-sn{
+    height: 50px;
+    
+    background-color: gray;
+    border-collapse: collapse;
+    
+}
+/* .move{
+    margin-left: 100px;
+    margin-top: 60px;
+} */
+.ytm-sn{
+    width: 1400px;
+}
+.blue-WO1789{
+    color: hsl(258, 79%, 61%);
+    font-weight: 600;
+}
