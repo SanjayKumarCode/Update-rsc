@@ -73,10 +73,12 @@ const Second = () => {
           </div>
 
 
-          <div>
-  <h6>Total Number of Item (0)</h6>
+
+          <div className="Total_Number_sn">
+  <h6 style={{color:"black", display:"flex", marginTop:"80px"}}> Total Number of Item (1)</h6>
 </div>
-          <div className="sa-emty-box">
+     
+          {/* <div className="sa-emty-box"> */}
             {/* <div className="sa-tobar">
               <input className="check_box1" type="checkbox" />
             </div> */}
@@ -89,7 +91,7 @@ const Second = () => {
 
 
 
-            <div classname="container">
+            <div classname="container-sn">
     <div classname="py-4">
     
       <table className="table border shadow">
@@ -197,7 +199,7 @@ const Second = () => {
       </table>
     </div>
   </div>
-          </div>
+          {/* </div> */}
         </form>
       </div>
     </>
