@@ -1,16 +1,16 @@
 import React from "react";
-import "./Second.css";
+import Secondfile from "./Second.module.css";
 import { BiBarcodeReader } from "react-icons/bi";
 
 
 const Second = () => {
   return (
     <>
-      <div className="coantainer_sa">
+      <div className={Secondfile.coantainersa}>
         <div>
           <a
             href="https://usecheck.com/"
-            className="btn-shine_sa"
+            className={Secondfile.btnshinesa}
             target="_blank"
           >
             Display TO / Work Order
@@ -18,15 +18,15 @@ const Second = () => {
         </div>
 
         <form>
-          <div className="qr-main">
-            <div className="qr_code">
-              <BiBarcodeReader size={20} className="qr_code1" />
+          <div className={Secondfile.qrmain}>
+            <div className={Secondfile.qrcode}>
+              <BiBarcodeReader size={20} className={Secondfile.qrcode1} />
               <h1>SCAN HU/PICK NUMBER</h1>
             </div>
             <input type="text" placeholder="HD19122022_01" />
           </div>
 
-          <div className="sa-main-inputs">
+          <div className={Secondfile.samaininputs}>
             <div>
               <label>HU Number</label>
               <br />
@@ -54,7 +54,7 @@ const Second = () => {
             </div>
           </div>
 
-          <div className="sa-main-inputs-2">
+          <div className={Secondfile.samaininputs2}>
             <div>
               <label>Enter Delivery</label>
               <br />
@@ -74,32 +74,20 @@ const Second = () => {
 
 
 
-          <div className="Total_Number_sn">
+          <div className={Secondfile.TotalNumbersn}>
   <h6 style={{color:"black", display:"flex", marginTop:"80px"}}> Total Number of Item (1)</h6>
 </div>
      
-          {/* <div className="sa-emty-box"> */}
-            {/* <div className="sa-tobar">
-              <input className="check_box1" type="checkbox" />
-            </div> */}
-            {/* <div className="sa-box-content">
-              <p>No data</p>
-            </div> */}
 
-  
-
-
-
-
-            <div classname="container-sn">
-    <div classname="py-4">
+            <div classname={Secondfile.containersn}>
+    <div classname={Secondfile.py4}>
     
-      <table className="table border shadow">
-        <thead className="thead-primary">
+      <table className={Secondfile.tablebordershadow}>
+        <thead className={Secondfile.theadprimary}>
 
           <tr>
       
-          <th><input className="sa-tobar" type="checkbox"/> </th>
+          <th><input className={Secondfile.satobar} type="checkbox"/> </th>
             <th scope="col">Product Code</th>
       <th scope="col">Product Description</th>
       <th scope="col">Variant</th>
@@ -114,21 +102,21 @@ const Second = () => {
       <th scope="col">Work Order #</th>
           </tr>
         </thead>
-          <tbody className="line123">
+          <tbody className={Secondfile.line123}>
     <tr>
       <td ><input type="checkbox"/></td>
-      <td>242436-12</td>
-      <td>COUPLER AC ZOOM</td>
-      <td>12</td>
-      <td>10886705028634</td>
-      <td>1</td>
-      <td>EA</td>
-      <td>BATCHHH</td>
+      <td style={{color: "black"}}>242436-12</td>
+      <td style={{color: "black"}}>COUPLER AC ZOOM</td>
+      <td style={{color: "black"}}>12</td>
+      <td style={{color: "black"}}>10886705028634</td>
+      <td style={{color: "black"}}>1</td>
+      <td style={{color: "black"}}>EA</td>
+      <td style={{color: "black"}}>BATCHHH</td>
       <td></td>
       <td></td>
-      <td>MDM Check Success</td>
-      <td>N/A</td>
-      <td className='blue-WO1789'>WO1789</td>
+      <td style={{color: "black"}}>MDM Check Success</td>
+      <td style={{color: "black"}}>N/A</td>
+      <td className={Secondfile.blueWO1789}>WO1789</td>
     </tr> 
 
     <tr>

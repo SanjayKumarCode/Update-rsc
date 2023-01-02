@@ -1,4 +1,4 @@
-.eee-sn {
+.eeesn {
     width: 400px;
     height: 150px;
     border-radius: 3px;
@@ -10,15 +10,20 @@
     
   }
   
-  .aaa-sn {
+  .aaasn {
     height: 60px;
     padding-top: 15px;
     text-align: center;
-    background: rgb(90, 177, 63);
+    background: red;
     overflow: hidden;
   }
 
-  .qwe-sn {
+  .qwesn {
   
    padding-top: 30px;
+  
+   display: flex;
+   gap: 10px;
+   text-align: center;
+   justify-content: center;
   }
