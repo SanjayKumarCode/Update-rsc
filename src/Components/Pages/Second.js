@@ -73,7 +73,7 @@ const Second = () => {
           </div>
 
 
-
+<section className={Secondfile.tabHead}>
           <div className={Secondfile.TotalNumbersn}>
   <h6 style={{color:"black", display:"flex", marginTop:"80px"}}> Total Number of Item (1)</h6>
 </div>
@@ -86,7 +86,6 @@ const Second = () => {
         <thead className={Secondfile.theadprimary}>
 
           <tr>
-      
           <th><input className={Secondfile.satobar} type="checkbox"/> </th>
             <th scope="col">Product Code</th>
       <th scope="col">Product Description</th>
@@ -187,6 +186,10 @@ const Second = () => {
       </table>
     </div>
   </div>
+
+
+
+  </section>
           {/* </div> */}
         </form>
       </div>

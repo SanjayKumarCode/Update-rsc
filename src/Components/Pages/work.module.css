@@ -4,8 +4,6 @@
     background-size: cover;
 }
 
-
-
 .first {
     color: #7D9D9C;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +12,11 @@
     padding-left: 30px;
    
 }
-
 .first:hover h3 {
     color: #39375B;
     font-weight: 600;
     font-size: 35px;
-
 }
-
 .sectop {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -33,7 +28,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-
 .second {
     margin-top: 30px;
     color:#7D9D9C;
@@ -42,7 +36,6 @@
     /* display: flex; */
     padding-left: 30px;
 }
-
 .second:hover h3 {
     color: #39375B;
     font-weight: 600;

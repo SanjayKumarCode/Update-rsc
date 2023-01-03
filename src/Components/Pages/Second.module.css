@@ -66,11 +66,19 @@
       border-radius: 15px;
       
     }
+    .qrmain:hover input {
+        color: white;
+        font-weight: 600;
+        background-color:#411530;
+       
+    }
+   
   
     .qrcode1{
       margin-top: 3px;
       margin-left: 5px;
     }
+
   
     .qrcode h1{
       color: white;
@@ -86,15 +94,12 @@
       position: absolute;
       top: 200px;
       left: 70px;
-      /* position: relative; */
-
-      /* margin-left: -145px; */
-
-
-     /* padding-left: 12px; */
-    
-     
-      
+ 
+    }
+    .samaininputs:hover input {
+        color: white;
+        font-weight: 600;
+        background-color:#411530;
     }
   
     .samaininputs{
@@ -124,6 +129,11 @@
       width: 260px;
       border-radius: 15px;
   
+    }
+    .samaininputs2:hover input {
+        color: white;
+        font-weight: 600;
+        background-color:#411530;
     }
   
     .saemtybox{
@@ -156,10 +166,10 @@
   .theadprimary{
       color: white;
       background-color: rgb(87, 87, 87);
-     border: 1px solid black;
+     border: 1.5px solid black;
   }
   .theadprimary th {
-     border: 1px solid black;
+     border: 1.5px solid black;
         
   }
 
@@ -167,10 +177,16 @@
 
 
   .line123 {
-      border: 1px solid black;
+    border: 1.5px solid black;
+      background-color: #b38d8d;
   }
   .line123 td {
-      border: 1px solid rgb(87, 87, 87);
+    border: 1.5px solid black;
+  }
+ .line123:hover td{
+    color: black;
+    background-color: #31E1F7;
+
   }
   .satobar input{
       width: 20px;
@@ -315,3 +331,7 @@ th,td {
     color: hsl(258, 79%, 61%);
     font-weight: 600;
 }
+.tabHead { 
+   margin-right: 80px;
+}
+
