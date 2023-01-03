@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div className={display.numeric}>
        <div className={display.first}>
-        <h3>WO1789</h3>
+        <h4>WO1789</h4>
     </div>
     <div className={display.sectop}>
     <div className={display.sectop1}>
@@ -52,7 +52,7 @@ const Work = () => {
     </div>
     </div>
     <div className={display.second}>
-        <h3>BOM Components</h3>
+        <h4>BOM Components</h4>
     </div>
     <div className={display.sectopp1}>
       <div className={display.sectop11}>

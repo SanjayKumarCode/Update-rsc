@@ -12,7 +12,7 @@
     padding-left: 30px;
    
 }
-.first:hover h3 {
+.first:hover h4 {
     color: #39375B;
     font-weight: 600;
     font-size: 35px;
@@ -36,7 +36,7 @@
     /* display: flex; */
     padding-left: 30px;
 }
-.second:hover h3 {
+.second:hover h4 {
     color: #39375B;
     font-weight: 600;
     font-size: 35px;
@@ -52,7 +52,7 @@
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    border: 2px solid #766161;
+    border: 2px rich gray;
     height: 40px;
     font-weight: 600;
     background-color: #F5F5DC;
@@ -65,7 +65,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;  
-    border: 2px solid #766161;
+    border: 2px rich gray;
     height: 40px;
     background-color: #F5F5DC;
     /* color: aliceblue; */
