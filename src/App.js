@@ -1,8 +1,9 @@
 import React from 'react'
 // import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Navbar2 from './Components/Pages/Navbar2';
+import InputField from './Components/Pages/InputField';
+// import Navbar2 from './Components/Pages/Navbar2';
 
 // import Card from './Components/Pages/Card';
 // import Pop3 from './Components/Pages/Pop3';
@@ -19,7 +20,10 @@ function App() {
       {/* <Work/> */}
       {/* <Card/> */}
 
-    <Navbar2/>
+    {/* <Navbar2/> */}
+
+
+    <InputField/>
     </div>
   );
 }
