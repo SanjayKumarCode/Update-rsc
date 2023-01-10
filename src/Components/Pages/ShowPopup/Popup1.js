@@ -19,9 +19,7 @@ const Alertpop = ({toogle,setToogle}) => {
             <div>
                      {toogle ? (
        <button onClick={toogleHandler}  className={AL.btn1}>Okay
-        </button>
-     
-       
+        </button>  
     ) :null}
     </div>
 

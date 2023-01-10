@@ -10,7 +10,6 @@
 .inFir {
     display: flex;
     gap: 5px;
- 
   padding-left: 100px;  
 }
 .heading1{
@@ -79,6 +78,8 @@
     display: flex;
     margin-left: 120px;
     margin-top: 20px;
+    background-color: rgb(5, 62, 43);
+    color: white;
 }
 
 

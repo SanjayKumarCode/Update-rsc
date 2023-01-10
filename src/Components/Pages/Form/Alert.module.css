@@ -7,8 +7,8 @@
     margin: 100px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: absolute; 
-    right: 380px;   
+    position: absolute;
+    right: 450px;
 }
 .alerttitle{
     width: 100%;
@@ -21,12 +21,17 @@
 }
 .title1{
     width: 100%;
+    margin-top: 7px;
+
 }
 .alertbody{
     width: 100%;
     background-color:white;
     color: green;
-    text-align: center;
+    text-align: center; 
+}
+.hea{
+    margin-top: 25px;
 }
 .btn1{
     width:95%;
@@ -37,8 +42,5 @@
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
-}
-.tapmain{
-   margin-top: -400px;
- 
+    margin-top: 20px;
 }
